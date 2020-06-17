@@ -13,6 +13,8 @@
     std::sort(v2.begin(), v2.end());
     std::sort(v3.begin(), v3.end());
 
+    cout << boolalpha;
+
     auto v1ContainsV2 = std::includes(v1.begin(), v1.end(),  // first range 
                                       v2.begin(), v2.end()); // second range
     // prints 1/true
