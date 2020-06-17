@@ -10,7 +10,7 @@ The generator function has to be defined by the user, and it is called successiv
     } 
   
     int main() { 
-        int i; 
+         
         std::vector<int> v1(10); 
   
         std::generate(v1.begin(), v1.end(), gen); 
